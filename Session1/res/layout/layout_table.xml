@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="0,1,2,3">
+	<TableRow>
+		<TextView android:text="@string/name" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/gender" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/age" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/phonenum" android:gravity="center"
+			android:padding="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="@string/name1" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/gender1" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/age1" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/phonenum1" android:gravity="center"
+			android:padding="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="@string/name2" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/gender1" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/age2" android:gravity="center"
+			android:padding="3dip" />
+		<TextView android:text="@string/phonenum2" android:gravity="center"
+			android:padding="3dip" />
+	</TableRow>
+</TableLayout> 

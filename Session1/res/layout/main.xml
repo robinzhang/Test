@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent" android:id="@+id/textView1"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+	<Button android:text="@+string/startActivity" android:id="@+id/button1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@+string/startActivityForResult"
+		android:id="@+id/button2"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="TableLayout"
+		android:id="@+id/button3"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="RelativeLayout"
+		android:id="@+id/button4"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Handler" android:id="@+id/button5"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Processbar"
+		android:id="@+id/button6"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Broadcast"
+		android:id="@+id/button7"></Button>
+</LinearLayout>
+ 
